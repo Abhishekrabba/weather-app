@@ -1,4 +1,4 @@
-const apiKey = "7fcb0f048d7ea3bcb3c5759a021b1b28"; 
+const apiKey = "User API KEy"; 
 
 async function getWeather() {
   const city = document.getElementById("cityInput").value;
@@ -8,14 +8,6 @@ async function getWeather() {
   const humidityElem = document.querySelector(".humidity");
   const windElem = document.querySelector(".wind");
   const iconElem = document.querySelector(".icon");
-
-  // Show loading
-  cityElem.innerText = "Loading...";
-  tempElem.innerText = "";
-  descElem.innerText = "";
-  humidityElem.innerText = "";
-  windElem.innerText = "";
-  iconElem.style.display = "none";
 
   try {
     const response = await fetch(
