@@ -19,7 +19,7 @@ weather-app/
 ├── index.html # Main HTML structure
 ├── style.css # Styling for the UI
 ├── script.js # JavaScript logic to fetch and display weather
-└── README.md # Project documentation (this file)
+└── README.md # Project documentation 
 
 
 ## Technologies Used
